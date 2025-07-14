@@ -1,5 +1,5 @@
-name: 기능 명세 (Feature Spec)
-description: 새로운 기능의 목적, 플로우, 구현 요소 등을 정리합니다.
+name: "기능 명세 (Feature Spec)"
+description: "새로운 기능의 목적, 플로우, 구현 요소 등을 정리합니다."
 title: "[Feature] 기능명 (예: 콘텐츠 업로드)"
 labels: ["feature", "spec"]
 assignees:
@@ -13,26 +13,26 @@ body:
   - type: input
     id: feature-id
     attributes:
-      label: 기능 ID
-      description: 고유 기능 식별자 (예: F002)
-      placeholder: FXXX
+      label: "기능 ID"
+      description: "고유 기능 식별자 (예: F002)"
+      placeholder: "FXXX"
     validations:
       required: true
 
   - type: input
     id: feature-name
     attributes:
-      label: 기능명
-      description: 명확한 기능명 (예: 콘텐츠 업로드)
-      placeholder: 콘텐츠 업로드
+      label: "기능명"
+      description: "명확한 기능명 (예: 콘텐츠 업로드)"
+      placeholder: "콘텐츠 업로드"
     validations:
       required: true
 
   - type: textarea
     id: purpose
     attributes:
-      label: 기능 목적
-      description: 해당 기능이 필요한 이유, 해결하고자 하는 UX/비즈니스 문제
+      label: "기능 목적"
+      description: "해당 기능이 필요한 이유, 해결하고자 하는 UX/비즈니스 문제"
       placeholder: |
         사용자 콘텐츠를 VR 환경에 불러오기 위한 기반 기능입니다.
     validations:
@@ -41,8 +41,8 @@ body:
   - type: textarea
     id: user-flow
     attributes:
-      label: 사용자 플로우
-      description: 이 기능이 포함된 UX 흐름을 간단히 설명해주세요
+      label: "사용자 플로우"
+      description: "이 기능이 포함된 UX 흐름을 간단히 설명해주세요"
       placeholder: |
         1. 사용자가 콘텐츠 업로드 버튼 클릭
         2. 파일 선택 후 확인
@@ -53,20 +53,20 @@ body:
   - type: checkboxes
     id: spec-details
     attributes:
-      label: 구현 요소 체크리스트
-      description: 어떤 세부 항목이 포함되는지 체크해주세요
+      label: "구현 요소 체크리스트"
+      description: "어떤 세부 항목이 포함되는지 체크해주세요"
       options:
-        - label: UI 요소 설계
-        - label: 상호작용 정의
-        - label: API 연동
-        - label: 에러 처리
-        - label: 테스트 케이스 작성
+        - label: "UI 요소 설계"
+        - label: "상호작용 정의"
+        - label: "API 연동"
+        - label: "에러 처리"
+        - label: "테스트 케이스 작성"
 
   - type: textarea
     id: references
     attributes:
-      label: 관련 자료
-      description: Figma, 프로토타입, 링크, 참고 문서 등
+      label: "관련 자료"
+      description: "Figma, 프로토타입, 링크, 참고 문서 등"
       placeholder: |
         - [Figma 시안](https://figma.com/xxx)
         - [기능 상세 문서](docs/specs/F002_upload.md)
@@ -76,7 +76,7 @@ body:
   - type: dropdown
     id: priority
     attributes:
-      label: 우선순위
+      label: "우선순위"
       options:
         - High
         - Medium
@@ -86,7 +86,7 @@ body:
   - type: dropdown
     id: status
     attributes:
-      label: 현재 상태
+      label: "현재 상태"
       options:
         - Todo
         - In Progress
