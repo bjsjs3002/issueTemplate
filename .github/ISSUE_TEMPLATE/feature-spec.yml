@@ -8,23 +8,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🧩 기능 명세서
+        ## 기능 명세서
 
-  - type: input
-    id: feature-id
-    attributes:
-      label: "기능 ID"
-      description: "고유 기능 식별자 (예: F002)"
-      placeholder: "FXXX"
-    validations:
-      required: true
+  # - type: input
+  #   id: feature-id
+  #   attributes:
+  #     label: "기능 ID"
+  #     description: "고유 기능 식별자 (예: F002)"
+  #     placeholder: "FXXX"
+  #   validations:
+  #     required: true
 
   - type: input
     id: feature-name
     attributes:
       label: "기능명"
-      description: "명확한 기능명 (예: 콘텐츠 업로드)"
-      placeholder: "콘텐츠 업로드"
+      description: "명확한 기능명 (예: 객체 선택)"
+      placeholder: "객체 선택"
     validations:
       required: true
 
@@ -32,9 +32,9 @@ body:
     id: purpose
     attributes:
       label: "기능 목적"
-      description: "해당 기능이 필요한 이유, 해결하고자 하는 UX/비즈니스 문제"
+      description: "해당 기능이 필요한 이유 또는 해결하고자 하는 문제"
       placeholder: |
-        사용자 콘텐츠를 VR 환경에 불러오기 위한 기반 기능입니다.
+        사용자가 그린 객체와 상호작용하기 위한 기반 기능입니다.
     validations:
       required: true
 
@@ -44,9 +44,9 @@ body:
       label: "사용자 플로우"
       description: "이 기능이 포함된 UX 흐름을 간단히 설명해주세요"
       placeholder: |
-        1. 사용자가 콘텐츠 업로드 버튼 클릭
-        2. 파일 선택 후 확인
-        3. 서버에 저장 및 편집 화면으로 이동
+        1. 사용자가 컨트롤러의 팁을 객체에 가져감
+        2. 사용자가 트리거 버튼을 누름
+        3. 해당 객체는 파란색으로 변함 
     validations:
       required: false
 
@@ -58,9 +58,9 @@ body:
       options:
         - label: "UI 요소 설계"
         - label: "상호작용 정의"
-        - label: "API 연동"
+        # - label: "API 연동"
         - label: "에러 처리"
-        - label: "테스트 케이스 작성"
+        # - label: "테스트 케이스 작성"
 
   - type: textarea
     id: references
