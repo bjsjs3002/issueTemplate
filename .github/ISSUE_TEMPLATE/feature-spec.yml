@@ -1,6 +1,6 @@
 name: "기능 명세 (Feature Spec)"
 description: "새로운 기능의 목적, 플로우, 구현 요소 등을 정리합니다."
-title: "[Feature] 기능명 (예: 콘텐츠 업로드)"
+title: "[Feature] 기능명 (예: 객체 선택)"
 labels: ["feature", "spec"]
 assignees:
   - ""
@@ -73,24 +73,24 @@ body:
     validations:
       required: false
 
-  - type: dropdown
-    id: priority
-    attributes:
-      label: "우선순위"
-      options:
-        - High
-        - Medium
-        - Low
-      default: 1
+  # - type: dropdown
+  #   id: priority
+  #   attributes:
+  #     label: "우선순위"
+  #     options:
+  #       - High
+  #       - Medium
+  #       - Low
+  #     default: 1
 
-  - type: dropdown
-    id: status
-    attributes:
-      label: "현재 상태"
-      options:
-        - Todo
-        - In Progress
-        - In Review
-        - Done
-        - On Hold
-      default: 0
+  # - type: dropdown
+  #   id: status
+  #   attributes:
+  #     label: "현재 상태"
+  #     options:
+  #       - Todo
+  #       - In Progress
+  #       - In Review
+  #       - Done
+  #       - On Hold
+  #     default: 0
